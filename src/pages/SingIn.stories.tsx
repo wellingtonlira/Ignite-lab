@@ -1,11 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { within, userEvent, waitFor } from '@storybook/testing-library'
 import { expect } from '@storybook/jest'
-import { SignIn } from './SingIn'
+import { SingIn } from './SingIn'
 
 export default {
     title: 'components/SingIn',
-    component: SignIn,
+    component: SingIn,
     args: {
         children: 'Create account',
     },

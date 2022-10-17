@@ -1,4 +1,4 @@
-import { SignIn } from './pages/SingIn';
+import { SingIn } from './pages/SingIn';
 
 import './styles/global.css';
 
@@ -6,7 +6,7 @@ import './styles/global.css';
 export function App() {
   return(
 
-    <SignIn />
+    <SingIn />
     
   )
 }
